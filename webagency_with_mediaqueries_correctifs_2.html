@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Web Agency</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel='stylesheet' type='text/css' media='screen' href='./css_webagency_with_mediaqueries_correctifs_2.css'>
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">    
+    </head>
+
+    <body>
+        <!-- Entête du site-->
+        <header id="accueil" class="accueil">
+            <div class="entete">    
+                <div class="logo" >
+                    <img src="./images/logo.png" alt="Logo Web Agency" title="Bienvenue sur Web Agency" class="img_logo" />  
+                </div>
+            <!-- Menu de navigation du site-->
+                <input class="menu_check" id="menu_mobile" type="checkbox" />
+                <label class="menu_mobile" for="menu_mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav class="menu_mobile_checked">
+                    <ul class="menu_mobile_checked_ul">
+                        <li class="menu_mobile_checked_li"><a href="#accueil">Accueil</li></a>
+                        <li class="menu_mobile_checked_li"><a href="#services">Services</li></a>
+                        <li class="menu_mobile_checked_li"><a href="#portfolio">Portfolio</li></a>
+                        <li class="menu_mobile_checked_li"><a href="#contact">Contact</li></a>
+                    </ul>
+                </nav>    
+                <nav class="menu_classique">
+                    <ul>
+                        <li class="bordure"><a href="#accueil">Accueil</li></a>
+                        <li><a href="#services">Services</li></a>
+                        <li><a href="#portfolio">Portfolio</li></a>
+                        <li><a href="#contact">Contact</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </header>        
+        <!-- Slider-->
+        <section class="slider_content">    
+            <div class="slider">
+                <img src="./images/slider/bg1.jpg" alt="Slider présentation" class="img_slider"/>
+                <div class="defilement_slider"></div>
+                <div class="slider_gauche"><span class="fas fa-chevron-left fa-lg"></span></div>
+                <div class="slider_droite"><span class="fas fa-chevron-right fa-lg"></span></div>
+                <div class="slogan">
+                    <h1><strong>WEBAGENCY</strong>: L'AGENCE DE TOUS VOS PROJETS !</h1>
+                    <p>Vous avez un projet web ? La Web Agency vous aide à le réaliser !</p>
+                    <button class="info" type="button">Plus d'infos</button> 
+                    <!-- <div class="info">
+                    </div>  -->
+                </div>                   
+            </div>
+        </section>
+        <!-- Section Services-->
+        <section class="services" id="services">
+            <!-- Entête-->
+            <div class="entete_services">
+                <h1 >Nos Services</h1>
+                <div class="separateur deco_services">
+                    <!-- <span class="trait_gauche"></span><span class="fas fa-circle"></span><span class="trait_droit"></span> -->
+                    <div class="deco_circle"><span class="fas fa-circle"></span></div>
+                </div> 
+                <p>WebAgency vous propose de nombreux services s'articulant autour d'un design attractif, d'une interface utlisateur juste et réfléchie, afin de proposer des sites pleinement adaptés à vos besoins !</p>
+            </div>
+            <!--Image présentation gauche-->
+            <div class="service_image"><img src="./images/main-feature.png" alt="Ecran Présentation Services" class="img_service"/></div><!--            
+            Liste des différents services
+            --><div class="liste_services">
+                <div class="ux_design">
+                    <div class="inline icone_ux">
+                        <span class="fas fa-chart-line fa-2x"></span>
+                        <span class="fas fa-circle icone_ux_circle"></span>
+                    </div>        
+                    <div class="inline info_ux">
+                        <p class="liste_services_titre">UX Design</p>
+                        <p class="liste_services_info">
+                            Baser nos créations sur une interface utilisateur intuitive et ergonomique est une de nos priorités.
+                        </p>
+                    </div>
+                </div>
+                <div class="ui_design">    
+                    <div class="inline icone_ui">
+                        <span class="fas fa-cubes fa-2x"></span>
+                        <span class="fas fa-circle icone_ui_circle"></span>
+                    </div>
+                    <div class="inline info_ui">
+                        <p class="liste_services_titre">UI Design</p>
+                        <p class="liste_services_info">
+                            En plus d'une interface utilisateur efficace, nos sites sont pensés avec un design élégant, aux visuels modernes.
+                        </p>    
+                    </div>
+                </div>
+                <div class="seo">    
+                    <div class="inline icone_seo">
+                        <span class="fas fa-chart-pie fa-2x"></span>
+                        <span class="fas fa-circle icone_seo_circle"></span>
+                    </div>
+                    <div class="inline info_seo">
+                        <p class="liste_services_titre">SEO</p>
+                        <p class="liste_services_info">
+                            La troisième de nos priorités est d'accroitre au maximum la visibilité et le référencement de vos futurs sites.
+                        </p>
+                    </div>
+                </div>     
+            </div>
+        </section>
+        <!-- Section Portfolio-->
+        <section class="portfolio" id="portfolio">
+            <!--Entête-->
+            <div class="entete_portfolio">
+                <h1 >Nos Projets</h1>
+                <div class=" separateur deco_services">
+                        <div class="deco_circle"><span class="fas fa-circle"></span></div>
+                </div>  
+                <p>Vous trouverez ici les différents projets que nous avons réalisés, pour diverses enseignes. Cela vous donnera une idée de la qualité de services que nous engageons pour vous !</p>
+            </div>
+            <!--Menu Selection des projets-->
+            <div class="menu_portfolio">
+                <!-- <div class="fond_menu"></div> -->
+                <ul>
+                    <li class="affichage"><a class="all_work">All Works</a><span class="fas fa-caret-down fleche_bas_menu fa-2x"></span></li><!--
+                    --><li><a>Creative</a><span class="fas fa-caret-down fleche_bas_menu fa-2x"></span></li><!--
+                    --><li><a>Corporate</a><span class="fas fa-caret-down fleche_bas_menu fa-2x"></span></li><!--
+                    --><li><a>Portfolio</a><span class="fas fa-caret-down fleche_bas_menu fa-2x"></span></li>
+                </ul>
+            </div>
+            <!--Miniature de tous les projets-->
+            <div id="tous_projets">
+                <div class="projet">
+                    <img src="images/portfolio/01_mini2.jpg" alt="Projet 01" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Lunettes pour tous !</h3>
+                            <p>Réseau d'opticiens</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/02_mini2.jpg" alt="Projet 02" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Puppet's Show ! </h3>
+                            <p>Peluche et mascotte personalisées</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/03_mini2.jpg" alt="Projet 03" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>HairBrush !</h3>
+                            <p>Salon de coiffure moderne et rétro</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/04_mini2.jpg" alt="Projet 04" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>C-Print !</h3>
+                            <p> Carte de visite, Flyers, Kakemono,...</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/05_mini2.jpg" alt="Projet 05" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Shopping Clothes !</h3>
+                            <p>Boutique de vente en ligne</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/06_mini2.jpg" alt="Projet 06" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Art'chitec !</h3>
+                            <p>Concept et architecture</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/07_mini2.jpg" alt="Projet 07" />
+                    <div class="vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Science pour tous !</h3>
+                            <p>Site de vulgarisation scientifique</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="projet">
+                    <img src="images/portfolio/08_mini2.jpg" alt="Projet 08" />
+                    <div class="survol vignette_survol">
+                        <div class="fond_gris"></div>
+                        <span class="fas fa-eye icone_eye"></span>
+                        <div class="texte_vignette">
+                            <h3>Top Desktop !</h3>
+                            <p>Vente de matériel bureautique</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section Contact-->
+        <section class="map_contact" id="contact">
+            <div class="carte_agency" id="contact">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1559235595441!5m2!1sfr!2sfr"  allowfullscreen>
+                </iframe>
+            </div>
+            <div class="formulaire_contact">
+                <h1>Contact Info</h1>
+                <div class="contact">
+                    <p class="contact_nom">WebAgency SAS</p>
+                    <p class="contact_adresse">25 Rue d'Hauteville 75010 PARIS</p>
+                    <p class="contact_telephone"><span>Tél:</span> 01 02 03 04 05</p>
+                </div>
+                <form method="POST">
+                    <p><input type="text" name="nom" id="nom" placeholder="Name" class="nom" required/></p>
+                    <p><input type="email" name="mail" id="mail" placeholder="Email" required/></p>
+                    <p><input type="text" name="objet" id ="objet" placeholder="Subject" required/></p>
+                    <p><textarea name="message" id="message" placeholder="Message" rows="15" cols="21" required></textarea></p>
+                    <p><input type="submit" value="Send Message"></p>
+                </form>
+            </div>    
+        </section>
+    </body>
+</html>
