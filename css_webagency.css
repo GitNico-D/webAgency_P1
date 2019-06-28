@@ -309,7 +309,7 @@ body
         background: white;
         position: fixed;
         right: -40%;
-        width: 35%;
+        width: 25%;
         height: 55%;
         transition: .5s;
         transition-delay: .5s;
@@ -322,7 +322,8 @@ body
         text-align: center;
         position: absolute;
         top: 10%;
-        right: 35%;
+        /* right: 35%; */
+        width: 100%;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -502,7 +503,7 @@ body
     left: 50%;
     transform: translate(-100%, -45%);
     width: 35%;
-    padding-top: 1rem;
+    /* padding-top: 1em; */
 }
 
 .slogan h1
@@ -516,7 +517,7 @@ body
 {
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 1rem 0 1rem 0;
+    padding: 1em 0 1em 0;
     font-size: 1em;
 }
 
@@ -524,7 +525,7 @@ body
 {
     .slogan h1
     {
-        padding-top: 1rem;
+        padding-top: 1em;
         font-size: 1.5em;
     }
     
@@ -1127,14 +1128,14 @@ body
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width: 360px)
+/* @media screen and (max-width: 360px)
 {
     .projet
     {
         width: 100%;
         margin: auto;
     }
-}
+} */
 
 .vignette_survol .texte_vignette
 {
