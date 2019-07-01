@@ -96,20 +96,10 @@ body
     }
 }
 
-/* @media screen and (max-width: 360px)
-{
-    .entete
-    {
-        line-height: 15px;
-        height: 100px;
-    }
-} */
-
 .logo
 {
     position: absolute;
     left: 15%;
-    z-index: 6;
 }
 
 .img_logo
@@ -122,8 +112,7 @@ body
     .logo
     {        
         text-align: center;
-        padding: 10px 0 10px 0;  
-        z-index: 6;      
+        padding: 10px 0 10px 0;      
     }
 }
 
@@ -132,7 +121,6 @@ body
     .img_logo
     {
         width: 80%;
-        z-index: 6;
     }
 }
 
@@ -140,13 +128,13 @@ body
 {
     .logo
     {
-        position: unset;
         text-align: left;
+        left: 10%;
         padding: 10px 0 10px 10px;        
     }
     .img_logo
     {
-        width: 40%;
+        width: 60%;
     }
 }  
 
@@ -236,7 +224,7 @@ body
     }
     .menu_mobile
     {
-    display: none;
+        display: none;
     }
 }
 
@@ -249,11 +237,10 @@ body
     .menu_mobile
     {
         position: fixed;
-        top: 28px;
-        right: 50px;
+        top: 30px;
+        right: 11%;
         height: 20px;
         width: 15px; 
-        z-index: 3;
         opacity: 1;
     }  
 
@@ -267,7 +254,7 @@ body
         left: 0;
         display: block;
         transition: .5s;
-        background: black;
+        background: rgb(52, 145, 178);
     } 
 
     .menu_mobile span:first-child
@@ -322,7 +309,6 @@ body
         text-align: center;
         position: absolute;
         top: 10%;
-        /* right: 35%; */
         width: 100%;
         margin: 0;
         padding: 0;
@@ -385,15 +371,6 @@ body
         padding-top: 70px;
     }
 }
-
-/*
-@media screen and (max-width: 360px)
-{
-    .slider
-    {
-        padding-top: 20px;
-    }
-} */
 
 .img_slider
 {
@@ -503,7 +480,6 @@ body
     left: 50%;
     transform: translate(-100%, -45%);
     width: 35%;
-    /* padding-top: 1em; */
 }
 
 .slogan h1
@@ -665,7 +641,7 @@ body
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
     color: rgb(93, 93, 93);
     text-align: center;
-    line-height: 30px;       
+    line-height: 26px;       
     margin: auto;
     width: 35%;
 }
@@ -818,11 +794,16 @@ body
 
 /* ICONE et TEXTE UX DESIGN */
 
+.ux_design, .ui_design, .seo
+{
+    padding-bottom: 1.5em;
+}
+
 .icone_ux
 {
     position: relative;
     color: rgb(92, 173, 211);
-    border: 2px solid rgb(235,235,235);
+    border: 1px solid rgb(235,235,235);
     border-radius: 50%;
     padding: 20px 20px 20px 20px;
 }
@@ -843,14 +824,13 @@ body
     text-align: justify;
 }
 
-
 /* ICONE et TEXTE UI DESIGN */
 
 .icone_ui
 {
     position: relative;
     color: rgb(92, 173, 211);
-    border: 2px solid rgb(235,235,235);
+    border: 1px solid rgb(235,235,235);
     border-radius: 50%;
     padding: 20px 20px 20px 20px;
 }
@@ -883,7 +863,7 @@ body
 {
     position: relative;
     color: rgb(92, 173, 211);
-    border: 2px solid rgb(235,235,235);
+    border: 1px solid rgb(235,235,235);
     border-radius: 50%;
     padding: 20px 20px 20px 20px;    
 }
@@ -932,16 +912,16 @@ body
     font-size: 1.5em;
     color: black;
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 .liste_services_info
 {
-    font-family: 'roboto_regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'roboto_medium', Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(93, 93, 93);
     margin: 0;
     margin-bottom: 1rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 @media screen and (max-width: 768px)
@@ -983,7 +963,7 @@ body
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
     color: rgb(93, 93, 93);
     text-align: center;
-    line-height: 30px;       
+    line-height: 27px;       
     margin: auto;
     width: 35%;
 }
@@ -1038,11 +1018,11 @@ body
     position: relative;
     background-color: rgb(229, 229, 229);
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;    
-    height: 45px;
+    height: 40px;
     width: 100px;
     color: rgb(115,119,123);
     border-bottom: 3px solid  rgb(229, 229, 229);
-    line-height: 45px; 
+    line-height: 40px; 
     margin: 0;
 }
 
@@ -1062,7 +1042,7 @@ body
     color: rgb(70, 140, 173);
     top: 50%;
     right: 50%;
-    transform: translate(50%, 35%);
+    transform: translate(50%, 30%);
     opacity: 1;
 }
 
@@ -1089,7 +1069,7 @@ body
 
 .menu_portfolio a
 {
-    color: rgb(127, 127, 127);    
+    color: rgb(100, 100, 100);    
     font-size: 0.9em;
     text-decoration: none;
 }
@@ -1183,7 +1163,7 @@ body
 
 .texte_vignette p
 {
-    font-family: 'roboto_light', Arial, Helvetica, sans-serif;
+    font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
 }
 
 .projet:hover .vignette_survol .texte_vignette
