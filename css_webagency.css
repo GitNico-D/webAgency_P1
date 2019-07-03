@@ -38,7 +38,6 @@
 {
     font-family: 'roboto_regular';
     src: url('./fonts/Roboto-Regular.ttf') format('truetype');
-    /* font-weight: bold; */
     font-style: normal;
 }
 
@@ -192,25 +191,6 @@ body
     }
 }
 
-/* @media screen and (max-width: 769px)
-{
-    .menu_classique
-    {
-        position: unset;
-        margin: auto;
-        width: 100%;
-        text-align: center;
-        display: block;
-        opacity: 1;
-        z-index: 0;
-    }
-
-    .menu_classique li
-    {  
-        padding: 12px 12px 12px 12px;
-    }
-} */
-
 .menu_check
 {
     opacity: 0;
@@ -238,7 +218,7 @@ body
     {
         position: fixed;
         top: 30px;
-        right: 11%;
+        right: 15%;
         height: 20px;
         width: 15px; 
         opacity: 1;
@@ -296,8 +276,8 @@ body
         background: white;
         position: fixed;
         right: -40%;
-        width: 25%;
-        height: 55%;
+        width: 35%;
+        height: 62%;
         transition: .5s;
         transition-delay: .5s;
         overflow: hidden;
@@ -332,7 +312,7 @@ body
 
     .menu_check:checked ~ .menu_mobile_checked 
     {
-        height: 55%;
+        height: 62%;
         transition-delay: 0s;
         right: 0;
     }
@@ -347,6 +327,19 @@ body
     {
         border-top: 2px solid rgb(92, 173, 211);
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    .menu_mobile_checked
+    {
+        height: 35%;
+    }
+
+    .menu_check:checked ~ .menu_mobile_checked 
+    {
+        height: 35%;
     }
 }
 
@@ -511,7 +504,7 @@ body
     }
 }
 
-@media all and (max-width: 768px)
+@media screen and (max-width: 768px)
 {
     .slogan
     {
@@ -593,7 +586,7 @@ body
     }
 }
 
-@media screen and  (max-width: 360px)
+@media screen and (max-width: 360px)
 {
     .info
     {
@@ -603,14 +596,13 @@ body
         margin: 0;
     }
 }
+
 /* Positionnement de la première Section : Services */
 
 /* (Section Services) Titre et paragraphe */
 
 .services 
 {
-    width: 100%;
-    padding: 20px 0 20px 0px;
     padding-top: 100px; 
 }
 
@@ -619,6 +611,14 @@ body
     .services
     {
         padding-top: 120px;
+    }
+}
+
+@media screen and (max-width: 360px)
+{
+    .services
+    {
+        padding-top: 70px;
     }
 }
 
@@ -715,22 +715,11 @@ body
     {
     width: 2rem;
     }
+
     .fa-circle
     {
     border: 3px solid white;
     font-size: 0.5rem;
-    }
-}
-
-@media all and (max-width: 500px)
-{
-    .trait_gauche
-    {
-        width: 15%;
-    }
-    .trait_droit
-    {
-        width: 15%;
     }
 }
 
@@ -786,7 +775,7 @@ body
     {
         display: block;
         margin: auto;
-        width: 100%;
+        width: 95%;
         text-align: center;
         padding-top: 1rem;
     }
@@ -797,6 +786,14 @@ body
 .ux_design, .ui_design, .seo
 {
     padding-bottom: 1.5em;
+}
+
+@media screen and (max-width: 768px)
+{
+    .ux_design, .ui_design, .seo
+    {
+        padding-bottom: 0;
+    }
 }
 
 .icone_ux
@@ -947,6 +944,14 @@ body
 {
     background-color: rgb(245, 245, 245);
     padding-top: 100px;
+}
+
+@media screen and (max-width: 360px)
+{
+    .portfolio
+    {
+        padding-top: 70px;
+    }
 }
 
 .entete_portfolio h1
@@ -1108,15 +1113,6 @@ body
     padding-bottom: 1rem;
 }
 
-/* @media screen and (max-width: 360px)
-{
-    .projet
-    {
-        width: 100%;
-        margin: auto;
-    }
-} */
-
 .vignette_survol .texte_vignette
 {
     text-align: left;
@@ -1212,6 +1208,14 @@ body
     background-color: rgb(245, 245, 245);
     padding-top: 100px;
     z-index: 1;
+}
+
+@media screen and (max-width:360px)
+{
+    .map_contact
+    {
+        padding-top: 70px;
+    }
 }
 
 .contact
