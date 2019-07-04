@@ -324,7 +324,7 @@ body
     {
         border-top: 2px solid white;
     }
-    
+
     .menu_mobile_checked_li:hover
     {
         border-top: 2px solid rgb(92, 173, 211);
@@ -1105,7 +1105,7 @@ body
 
 .projet
 {
-    height: 200px;
+    /* height: 200px; */
     position: relative;
     padding-bottom: 1rem;
 }
@@ -1131,16 +1131,17 @@ body
 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
-    height: 36%;
+    height: 35%;
     width: 100%;
-    top: 57%;
+    /* top: 57%; */
+    bottom: 9%;
     opacity: 0;
 } 
 
 .vignette_survol .icone_eye
 {
     position: absolute;
-    top: 48%;
+    top: 47%;
     right: 5%;
     background-color: rgb(79, 164, 177);
     color: white;
