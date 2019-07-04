@@ -109,8 +109,7 @@ body
 @media screen and (max-width: 768px)
 {
     .logo
-    {        
-        text-align: center;
+    { 
         padding: 10px 0 10px 0;      
     }
 }
@@ -119,7 +118,7 @@ body
 {
     .img_logo
     {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -196,7 +195,7 @@ body
     opacity: 0;
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 778px)
 {
     .menu_mobile_checked
     {
@@ -277,7 +276,7 @@ body
         position: fixed;
         right: -40%;
         width: 35%;
-        height: 62%;
+        height: 60%;
         transition: .5s;
         transition-delay: .5s;
         overflow: hidden;
@@ -307,12 +306,10 @@ body
         font-family: 'roboto_medium', Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(100, 100, 100);    
         font-size: 0.9em;
-        display: block;
     }
 
     .menu_check:checked ~ .menu_mobile_checked 
     {
-        height: 62%;
         transition-delay: 0s;
         right: 0;
     }
@@ -323,6 +320,11 @@ body
         width: 100%;
     }
 
+    .menu_mobile_checked_li
+    {
+        border-top: 2px solid white;
+    }
+    
     .menu_mobile_checked_li:hover
     {
         border-top: 2px solid rgb(92, 173, 211);
@@ -334,12 +336,7 @@ body
 {
     .menu_mobile_checked
     {
-        height: 35%;
-    }
-
-    .menu_check:checked ~ .menu_mobile_checked 
-    {
-        height: 35%;
+        height: 40%;
     }
 }
 
@@ -522,7 +519,7 @@ body
     }
 }
 
-@media screen and (max-width: 360px)
+@media screen and (max-width: 510px)
 {
     .slogan
     {
@@ -775,7 +772,7 @@ body
     {
         display: block;
         margin: auto;
-        width: 95%;
+        width: 89%;
         text-align: center;
         padding-top: 1rem;
     }
@@ -885,9 +882,8 @@ body
 { 
     .info_ux, .info_seo, .info_ui
     {
-        width: 90%;
-        margin: auto;
-        padding: 0 5px 0 5px;
+        display: inline; 
+        padding: 0;
     }
     .icone_ux, .icone_ui, .icone_seo
     {
@@ -933,6 +929,7 @@ body
     .liste_services_info
     {
         font-size: 0.8em;
+        text-align: center;
     }
 }
 
@@ -1112,6 +1109,12 @@ body
     position: relative;
     padding-bottom: 1rem;
 }
+
+/* .img_projet
+{
+    width: 100%;
+    margin: auto;
+} */
 
 .vignette_survol .texte_vignette
 {
