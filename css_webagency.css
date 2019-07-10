@@ -152,6 +152,7 @@ body
     color: rgb(100, 100, 100);    
     font-size: 0.9em;
     text-decoration: none;
+    display: block;
 }
 
 .menu_classique ul
@@ -170,6 +171,7 @@ body
 .menu_classique li:hover
 {
     border-top: 2px solid rgb(92, 173, 211);
+    cursor: pointer;
 }
 
 .menu_classique li:hover a
@@ -195,7 +197,7 @@ body
     opacity: 0;
 }
 
-@media screen and (min-width: 778px)
+@media screen and (min-width: 768px)
 {
     .menu_mobile_checked
     {
@@ -379,6 +381,11 @@ body
     border-radius: 50%;  
 }
 
+.slider_gauche:hover
+{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px)
 {
     .slider_gauche
@@ -409,6 +416,11 @@ body
     width: 70px;
     transform: translate(50%, -50%);    
     border-radius: 50%;   
+}
+
+.slider_droite
+{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px)
@@ -607,7 +619,7 @@ body
 {
     .services
     {
-        padding-top: 120px;
+        padding-top: 70px;
     }
 }
 
@@ -943,7 +955,7 @@ body
     padding-top: 100px;
 }
 
-@media screen and (max-width: 360px)
+@media screen and (max-width: 768px)
 {
     .portfolio
     {
@@ -1034,8 +1046,10 @@ body
     color: rgb(70, 140, 173);
     top: 50%;
     right: 50%;
-    transform: translate(50%, 35%);
+    bottom: 2px;
+    transform: translate(50%, 50%);
     opacity: 0;
+    z-index: 0;
 }
 
 .affichage .fleche_bas_menu
@@ -1044,8 +1058,10 @@ body
     color: rgb(70, 140, 173);
     top: 50%;
     right: 50%;
-    transform: translate(50%, 30%);
+    bottom: 2px;
+    transform: translate(50%, 50%);
     opacity: 1;
+    z-index: 0;
 }
 
 .affichage .all_work
@@ -1108,6 +1124,7 @@ body
     /* height: 200px; */
     position: relative;
     padding-bottom: 1rem;
+    line-height: 0;
 }
 
 /* .img_projet
@@ -1133,16 +1150,16 @@ body
     background-color: rgba(0, 0, 0, 0.4);
     height: 35%;
     width: 100%;
-    /* top: 57%; */
-    bottom: 9%;
+    bottom: 1rem;
     opacity: 0;
 } 
 
 .vignette_survol .icone_eye
 {
     position: absolute;
-    top: 47%;
-    right: 5%;
+    top: 0;
+    right: 3%;
+    transform: translateY(-50%);
     background-color: rgb(79, 164, 177);
     color: white;
     border: 2px solid white;
