@@ -652,6 +652,7 @@ body
     text-align: center;
     line-height: 26px;       
     margin: auto;
+    padding-bottom: 2rem;
     width: 35%;
 }
 
@@ -752,7 +753,7 @@ body
 .liste_services
 {
     display: inline-block;
-    padding-top: 6rem;
+    padding-top: 5rem;
     width: 50%;
     vertical-align: baseline;
 }
@@ -825,7 +826,7 @@ body
 
 .info_ux
 {
-    width: 55%;
+    width: 60%;
     padding-left: 30px;
     text-align: justify;
 }
@@ -852,7 +853,7 @@ body
 
 .info_ui
 {
-    width: 55%;
+    width: 60%;
     padding-left: 30px;
     text-align: justify;
 }
@@ -885,7 +886,7 @@ body
 
 .info_seo
 {
-    width: 55%;
+    width: 60%;
     padding-left: 30px;
     text-align: justify;
 }
@@ -1015,7 +1016,7 @@ body
 
 .menu_portfolio
 {
-    padding: 4rem 0 4rem 0;
+    padding: 3rem 0 3rem 0;
     text-align: center;
 }
 
