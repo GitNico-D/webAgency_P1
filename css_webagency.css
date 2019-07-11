@@ -278,7 +278,7 @@ body
         position: fixed;
         right: -40%;
         width: 35%;
-        height: 60%;
+        height: 65%;
         transition: .5s;
         transition-delay: .5s;
         overflow: hidden;
@@ -338,7 +338,7 @@ body
 {
     .menu_mobile_checked
     {
-        height: 40%;
+        height: 45%;
     }
 }
 
