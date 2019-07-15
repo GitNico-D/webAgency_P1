@@ -491,7 +491,7 @@ body
     font-family: 'roboto_black', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.slogan p
+.slogan h2
 {
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
     margin: 0;
@@ -507,7 +507,7 @@ body
         font-size: 1.5em;
     }
     
-    .slogan p
+    .slogan h2
     {
         font-size: 0.8em; 
     }
@@ -524,7 +524,7 @@ body
     {
         font-size: 1.2em;
     }
-    .slogan p
+    .slogan h2
     {
         font-size: 0.6em;
         padding: 15px 0 15px 0;
@@ -541,7 +541,7 @@ body
     {
         font-size: 0.6em;
     }
-    .slogan p
+    .slogan h2
     {
         font-size: 0.3em;
         padding: 5px 0 5px 0;
@@ -636,7 +636,7 @@ body
     width: 100%;
 }
 
-.entete_services h1
+.entete_services h2
 {
     font-family: 'roboto_black', Arial, Helvetica, sans-serif;
     text-align: center;
@@ -658,7 +658,7 @@ body
 
 @media screen and (max-width: 1280px)
 {
-    .entete_services h1
+    .entete_services h2
     {
         font-size: 2em;
     }
@@ -673,7 +673,7 @@ body
 @media screen and (max-width: 768px)
 {
     
-    .entete_services h1
+    .entete_services h2
     {
         font-size: 1.3em;
     }
@@ -964,7 +964,7 @@ body
     }
 }
 
-.entete_portfolio h1
+.entete_portfolio h2
 {
     font-family: 'roboto_black', Arial, Helvetica, sans-serif;
     text-align: center;
@@ -991,7 +991,7 @@ body
 
 @media screen and (max-width: 1280px)
 {
-    .entete_portfolio h1
+    .entete_portfolio h2
     {
         font-size: 2em; 
     }
@@ -1006,7 +1006,7 @@ body
 
 @media screen and (max-width: 768px)
 {
-    .entete_portfolio h1
+    .entete_portfolio h2
     {
         font-size: 1.3em; 
     }
@@ -1122,25 +1122,20 @@ body
 
 .projet
 {
-    /* height: 200px; */
     position: relative;
     padding-bottom: 1rem;
     line-height: 0;
+    margin: 0;
 }
 
-/* .img_projet
-{
-    width: 100%;
-    margin: auto;
-} */
 
 .vignette_survol .texte_vignette
 {
     text-align: left;
     position: absolute;
-    top: 60%;
+    top: 64%;
     color: white;
-    line-height: 30px;
+    line-height: 25px;
     margin-left: 1rem;
     opacity: 0;
 } 
@@ -1169,19 +1164,22 @@ body
     opacity: 0; 
 }
 
-.texte_vignette h3, .texte_vignette p 
+.texte_vignette_titre, .texte_vignette_info 
 {
     margin: 0;
 }
 
-.texte_vignette h3
+.texte_vignette_titre
 {
-    font-family: 'roboto_bold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-family: 'roboto_black', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
-.texte_vignette p
+.texte_vignette_info
 {
     font-family: 'roboto_medium', Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
 }
 
 .projet:hover .vignette_survol .texte_vignette
@@ -1259,7 +1257,7 @@ body
     z-index: 2;
 }
 
-.formulaire_contact h1
+.formulaire_contact h4
 {
     font-family: 'roboto_black', Arial, Helvetica, sans-serif;
     font-size: 1.6em;
