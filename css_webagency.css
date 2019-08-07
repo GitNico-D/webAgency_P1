@@ -1110,6 +1110,46 @@ body
     cursor: pointer;
 }
 
+@media screen and (max-width: 450px)
+{
+    .menu_portfolio ul
+    {
+        margin: auto;
+        width: 100%;
+    }
+
+    .menu_portfolio li
+    {
+        display: block;
+        margin: auto;
+    }
+
+    .menu_portfolio .fleche_bas_menu
+    {
+        display: none;
+    }
+
+    .menu_portfolio li:nth-child(1)
+    {
+        border-radius: 6% 6% 6% 6%;
+    }
+
+    .menu_portfolio li:nth-child(2)
+    {
+        border-radius: 6% 6% 6% 6%;
+    }
+
+    .menu_portfolio li:nth-child(3)
+    {
+        border-radius: 6% 6% 6% 6%;
+    }
+
+    .menu_portfolio li:nth-child(4)
+    {
+        border-radius: 6% 6% 6% 6%;
+    }
+}
+
 #tous_projets
 {
     display: flex;
