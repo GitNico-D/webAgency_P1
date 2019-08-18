@@ -1036,7 +1036,7 @@ body
     height: 40px;
     width: 100px;
     color: rgb(115,119,123);
-    border-bottom: 3px solid  rgb(229, 229, 229);
+    border-bottom: 3px solid rgb(229, 229, 229);
     line-height: 40px; 
     margin: 0;
 }
@@ -1112,15 +1112,10 @@ body
 
 @media screen and (max-width: 450px)
 {
-    .menu_portfolio ul
-    {
-        margin: auto;
-        width: 100%;
-    }
-
     .menu_portfolio li
     {
         display: block;
+        width: 100%;
         margin: auto;
     }
 
@@ -1131,22 +1126,22 @@ body
 
     .menu_portfolio li:nth-child(1)
     {
-        border-radius: 6% 6% 6% 6%;
+        border-radius: 2% 2% 2% 2%;
     }
 
     .menu_portfolio li:nth-child(2)
     {
-        border-radius: 6% 6% 6% 6%;
+        border-radius: 2% 2% 2% 2%;
     }
 
     .menu_portfolio li:nth-child(3)
     {
-        border-radius: 6% 6% 6% 6%;
+        border-radius: 2% 2% 2% 2%;
     }
 
     .menu_portfolio li:nth-child(4)
     {
-        border-radius: 6% 6% 6% 6%;
+        border-radius: 2% 2% 2% 2%;
     }
 }
 
